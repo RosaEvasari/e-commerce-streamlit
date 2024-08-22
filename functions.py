@@ -2,6 +2,7 @@
 # main
 import pandas as pd
 import numpy as np
+import os
 
 # additional
 import unicodedata
@@ -25,29 +26,29 @@ from sklearn.metrics import accuracy_score, classification_report
 from sklearn.metrics import mean_absolute_error, mean_squared_error,  r2_score
 
 # Sentiment analysis
-import nltk
-from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize
-import re
-import emoji
-from textblob import TextBlob
-from textblob.translate import Translator
-import emoji
-from wordcloud import WordCloud, STOPWORDS
-from collections import Counter
-from googletrans import Translator
-from transformers import pipeline
-import time
-import random
-from transformers import AutoTokenizer, AutoModelForSequenceClassification
-import json
+# import nltk
+# from nltk.corpus import stopwords
+# from nltk.tokenize import word_tokenize
+# import re
+# import emoji
+# from textblob import TextBlob
+# from textblob.translate import Translator
+# import emoji
+# from wordcloud import WordCloud, STOPWORDS
+# from collections import Counter
+# from googletrans import Translator
+# from transformers import pipeline
+# import time
+# import random
+# from transformers import AutoTokenizer, AutoModelForSequenceClassification
+# import json
 
 # Connection to MySQL
-from dotenv import load_dotenv
-import os
-import pymysql
-from pymysql.cursors import DictCursor
-from sqlalchemy import create_engine, text
+# from dotenv import load_dotenv
+# import os
+# import pymysql
+# from pymysql.cursors import DictCursor
+# from sqlalchemy import create_engine, text
 
 
 # visualization
