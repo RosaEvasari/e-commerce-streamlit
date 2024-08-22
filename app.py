@@ -1,11 +1,9 @@
 import sys
 import os
 
-# Add the path to the directory containing the notebooks folder
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 # Now import from notebooks.draft_notebooks.functions
-from notebooks.draft_notebooks.functions import *
+from functions import *
 
 def main():
     
