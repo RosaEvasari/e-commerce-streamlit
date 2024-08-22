@@ -6,3 +6,4 @@ beautifulsoup4==4.12.3
 scikit-learn==1.5.1
 catboost==1.2.5
 xgboost==2.0.3
+nltk==3.9.1
